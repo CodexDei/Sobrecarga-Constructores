@@ -15,6 +15,31 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
     }
+    
+    public int getIdPersona() {
+        return idPersona;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public static int getContadorPersonas() {
+        return contadorPersonas;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+    
 
     @Override
     public String toString() {
